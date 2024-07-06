@@ -14,9 +14,9 @@
 
   function getitems(keyword){
     var client = amazon.createClient({
-      awsId: "AKIAJRWT3AWHMGGLQUJA",
-      awsSecret: "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",
-      awsTag: "hackohio-20"
+      awsId: "",
+      awsSecret: "",
+      awsTag: ""
     });
     client.itemSearch({
      SearchIndex: 'All',

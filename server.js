@@ -26,7 +26,7 @@ router.get('/', function(req, res) {
     var client = amazon.createClient({
       awsId: "",
       awsSecret: "",
-      awsTag: "hackohio-20"
+      awsTag: ""
     });
     client.itemSearch({
      SearchIndex: 'All',
