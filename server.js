@@ -24,8 +24,8 @@ var router = express.Router();              // get an instance of the express Ro
 router.get('/', function(req, res) {
  var keyword=req.query.keyword;
     var client = amazon.createClient({
-      awsId: "AKIAJRWT3AWHMGGLQUJA",
-      awsSecret: "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",
+      awsId: "",
+      awsSecret: "",
       awsTag: "hackohio-20"
     });
     client.itemSearch({
